@@ -1,4 +1,6 @@
-$bodytext: brown;
+@import "_variables.scss";
+
+$bodytext: $lightblue;
 
 body {
     color:$bodytext;
