@@ -41,3 +41,35 @@
     }
 }
 
+
+/* ---------------------------------------- 
+	Social Profiles
+---------------------------------------- */
+.social {
+	list-style:none;
+}
+
+.social {
+    li {
+	display:inline-block;
+	margin-left:20px;
+	font-size:2.4rem;
+    color:#6fffe9;
+    }
+}
+
+.social__top {
+	position:absolute;
+	top:50px;
+	right:50px;
+    z-index:20;
+    
+    .social__icon{
+        -webkit-transition:margin .2s ease-in-out;
+        transition:margin .2s ease-in-out;
+
+        &:hover {
+            margin-top:-10px;
+        }
+    }
+}
