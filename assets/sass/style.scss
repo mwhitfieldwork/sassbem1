@@ -1,9 +1,2 @@
-$bodytext: red;
-
-body {
-    color:$bodytext;
-}
-
-.social__top{
-    background-color: $bodytext;
-}
+@import '_base.scss';
+@import '_variables';
