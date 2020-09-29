@@ -227,4 +227,47 @@ a {
   margin-top: -10px;
 }
 
+/* ---------------------------------------- 
+	Text Rotator  10/27/2020
+---------------------------------------- */
+.text-rotator {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 10rem;
+}
+
+.text-rotator span {
+  -webkit-transition: all .8s ease-in-out;
+  -o-transition: all .8s ease-in-out;
+  transition: all .8s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  clip: rect(0, 0, 100vh, 0);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 80vw;
+  height: 100vh;
+  padding: 0 10vw;
+  line-height: 1;
+}
+
+.text-rotator span.active {
+  -webkit-transition: all 1.6s ease-in-out;
+  -o-transition: all 1.6s ease-in-out;
+  transition: all 1.6s ease-in-out;
+  opacity: 1;
+  clip: rect(0, 100vw, 100vh, 0);
+}
+
 /*# sourceMappingURL=style.css.map */
