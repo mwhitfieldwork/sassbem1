@@ -1,0 +1,58 @@
+/* ---------------------------------------- 
+	Navigation
+---------------------------------------- */
+.main-nav {
+	background:rgba(58,80,107,.1);
+	position:absolute;
+	bottom:0;
+	width:100%;
+	border-top:1px solid rgba(58,80,107,.25);
+	z-index:100;
+}
+
+.responsive-menu {
+	display:none;
+	color:#fff;
+	width:100%;
+	padding:20px 0;
+	text-transform:uppercase;
+	font-weight:700;
+	font-size:2.5rem;
+	text-align:center;
+}
+
+.menu {
+	display:block;
+	text-align:center;
+    li {
+        display:inline-block;
+        position:relative;
+        z-index:100;
+        margin:0 -2px;
+        
+        a {
+            font-family:"Montserrat", sans-serif;
+            font-weight:700;
+            text-transform:uppercase;
+            font-size:1.5rem;
+            padding:35px 20px;
+            display:block;
+            color:#fff;
+            -webkit-transition:background-color .2s ease-in-out;
+            -o-transition:background-color .2s ease-in-out;
+            transition:background-color .2s ease-in-out;
+        }
+    }
+}
+
+.menu__item{
+    &:hover>a{
+        background:rgba(58,80,107,.25); 
+    }
+}
+
+.menu__link{
+    &:hover {
+        background:rgba(58,80,107,.25);
+    }
+}
