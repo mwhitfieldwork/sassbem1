@@ -1,0 +1,75 @@
+/* Min 900 - Max 1199 */
+@media only screen and (min-width:900px) and (max-width:1199px) {
+	html {
+		font-size:45%;
+	}
+	.section-header-wrapper {
+		padding:80px 0 30px;
+	}
+	.text-rotator, 
+	.intro-heading h2, 
+	.skills-heading h2 {
+		font-size:8rem;
+	}
+	.section-header h2 {
+		font-size:9.5rem;
+	}
+	.skills-content, 
+	.services .tab-right .tab-half-content,
+	.footer-right-content {
+		padding-left:40px;
+	}
+	.social li {
+		font-size:2.8rem;
+	}
+	.intro-nav {
+		top:43px;
+	}
+	.services-info-content h2 {
+		font-size:9rem;
+	}
+	.team {
+		margin-bottom:10px;
+	}
+	.member-content {
+		padding-left:10px;
+	}
+	.details-content h3 {
+		font-size:3.2rem;
+	}
+	.details-content p {
+		font-size:1.8rem;
+	}
+	.team-member:first-of-type .details-content h3 {
+		font-size:5.5rem;
+	}
+	.team-member:first-of-type .details-content p {
+		font-size:3.1rem;
+	}
+	.member-profile a {
+		font-size:2.5rem;
+	}
+	.services .services-tabs li, 
+	.testimonials .tabs li {
+		height:65px;
+	}
+	.services .services-tabs .fa {
+		font-size:4rem;
+	}
+	.blog-left .blog-main h2 {
+		padding:0 5rem;
+	}
+	.modal-intro {
+		height:400px;
+	}
+	.testimonials .tabs li {
+		background-size:auto 40px;
+	}
+	.testimonials .tab-content h5 {
+		margin-bottom:10px;
+	}
+	.contact-form-wrapper, 
+	.footer-left-content {
+		padding-right:40px;
+	}
+}
