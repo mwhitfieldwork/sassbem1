@@ -39,6 +39,7 @@
 .team-member1 {
     background-color: #4d9099;
 	flex-grow: 2;
+	width:35%;
 	
 	.member-content{
 		display:flex;
@@ -53,7 +54,8 @@
 		width:100%;
 		display:flex;
 		flex-wrap: wrap;
-		height:325px;
+		height:427px;
+		position: relative;
 	}
 
 	.member-image {
@@ -71,13 +73,19 @@
 			right:0;
 			top:0;
 			width:100%;
-			height:130%
+			height:100%;
 		}
+	}
+
+	.member-image.overlay-dark-50:before {
+		background: linear-gradient(135deg, rgba(28, 37, 65, 0.5) 0%, rgba(11, 19, 43, 0.5) 130%);
 	}
 
 	.member-details {
 		z-index: 99;
 		width:100%;
+		position: absolute;
+		bottom:0;
 	}
 
 }
